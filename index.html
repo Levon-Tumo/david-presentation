@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Լյուքսեմբուրգի Տեղեկատու</title>
+    <!-- Բեռնում ենք Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Բեռնում ենք Inter տառատեսակը -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- <style>
+        /* Կիրառում ենք Inter տառատեսակը */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-950 text-gray-200 antialiased">
+
+    <!-- Հիմնական կոնտեյներ -->
+    <div class="container mx-auto px-6 py-12 max-w-7xl">
+
+        <!-- Վերնագիր -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-white mb-4">Բարի գալուստ Լյուքսեմբուրգ</h1>
+            <p class="text-xl text-gray-400">Փոքր երկիր՝ հարուստ պատմությամբ և գեղեցիկ բնությամբ</p>
+        </header>
+
+        <!-- Տեղեկատվական քարտերի ցանց -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Քարտ 1: Ընդհանուր տեղեկություններ -->
+            <div class="bg-gray-900 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                <img class="h-56 w-full object-cover" 
+                     src="images/Luxembourg ✨.jpeg" 
+                     alt="Լյուքսեմբուրգ քաղաքի համայնապատկեր"
+                     onerror="this.src='https://placehold.co/600x400/262626/FFFFFF?text=Լյուքսեմբուրգ'">
+                <!-- Սա այն "սև պատուհանն" է, որը պարունակում է տեքստը -->
+                <div class="p-6 flex-grow">
+                    <h2 class="text-2xl font-semibold text-white mb-3">Ընդհանուր տեղեկություններ</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Լյուքսեմբուրգը, պաշտոնապես Լյուքսեմբուրգի Մեծ Դքսությունը, Արևմտյան Եվրոպայում գտնվող փոքր, ցամաքային երկիր է։ Այն սահմանակից է Բելգիային, Գերմանիային և Ֆրանսիային։
+                    </p>
+                </div>
+            </div>
+
+            <!-- Քարտ 2: Մայրաքաղաքը -->
+            <div class="bg-gray-900 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                <img class="h-56 w-full object-cover" 
+                     src="images/Luxemburgo.jpeg" 
+                     alt="Ադոլֆի կամուրջը Լյուքսեմբուրգում"
+                     onerror="this.src='https://placehold.co/600x400/262626/FFFFFF?text=Ադոլֆի+կամուրջ'">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-2xl font-semibold text-white mb-3">Մայրաքաղաքը</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Մայրաքաղաքը Լյուքսեմբուրգ քաղաքն է, որը Եվրոպական Միության երեք պաշտոնական մայրաքաղաքներից մեկն է (Բրյուսելի և Ստրասբուրգի հետ միասին)։
+                    </p>
+                </div>
+            </div>
+
+            <!-- Քարտ 3: Լեզուներ -->
+            <div class="bg-gray-900 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                <img class="h-56 w-full object-cover" 
+                     src="images/luxemburg.jpeg" 
+                     alt="Լյուքսեմբուրգի փողոցային ցուցանակ"
+                     onerror="this.src='https://placehold.co/600x400/262626/FFFFFF?text=Լեզուներ'">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-2xl font-semibold text-white mb-3">Լեզուներ</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Լյուքսեմբուրգն ունի երեք պաշտոնական լեզու՝ ֆրանսերեն, գերմաներեն և լյուքսեմբուրգերեն։ Բնակչության մեծ մասը տիրապետում է նաև անգլերենին։
+                    </p>
+                </div>
+            </div>
+
+            <!-- Քարտ 4: Հին թաղամաս (ՅՈՒՆԵՍԿՕ) -->
+            <div class="bg-gray-900 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                <img class="h-56 w-full object-cover" 
+                     src="images/old.jpeg" 
+                     alt="Գրունդ թաղամասը Լյուքսեմբուրգում"
+                     onerror="this.src='https://placehold.co/600x400/262626/FFFFFF?text=Հին+թաղամաս'">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-2xl font-semibold text-white mb-3">Հին թաղամաս (ՅՈՒՆԵՍԿՕ)</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Լյուքսեմբուրգ քաղաքի հին թաղամասերը և ամրությունները ՅՈՒՆԵՍԿՕ-ի համաշխարհային ժառանգության օբյեկտ են՝ իրենց տպավորիչ միջնադարյան ամրությունների շնորհիվ։
+                    </p>
+                </div>
+            </div>
+
+            <!-- Քարտ 5: Վիանդենի ամրոց -->
+            <div class="bg-gray-900 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                <img class="h-56 w-full object-cover" 
+                     src="images/vianden amroc.jpg" 
+                     alt="Վիանդենի ամրոց"
+                     onerror="this.src='https://placehold.co/600x400/262626/FFFFFF?text=Վիանդենի+ամրոց'">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-2xl font-semibold text-white mb-3">Վիանդենի ամրոց</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Վիանդենի ամրոցը երկրի ամենամեծ և ամենագեղեցիկ ամրոցներից մեկն է, որը գտնվում է Ուր գետի վրա գտնվող բլրի վրա և համարվում է Եվրոպայի ամենանշանավոր պատմական հուշարձաններից մեկը։
+                    </p>
+                </div>
+            </div>
+
+            <!-- Քարտ 6: Մյուլերթալի շրջան -->
+            <div class="bg-gray-900 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                <img class="h-56 w-full object-cover" 
+                     src="images/Dé 17 x mooiste bezienswaardigheden in de Moezel.jpeg" 
+                     alt="Մյուլերթալի շրջանի անտառ"
+                     onerror="this.src='https://placehold.co/600x400/262626/FFFFFF?text=Մյուլերթալ'">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-2xl font-semibold text-white mb-3">Մյուլերթալի շրջան</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Հայտնի է որպես «Լյուքսեմբուրգի Փոքր Շվեյցարիա»՝ իր անտառապատ լանդշաֆտների, քարանձավների և յուրահատուկ ժայռերի գոյացությունների շնորհիվ։
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Ներքևի հատված -->
+    <footer class="text-center py-8 mt-8 border-t border-gray-800">
+        <p class="text-gray-500">Designed by Levon</p>
+    </footer>
+
+</body>
+</html>
